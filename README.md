@@ -1,11 +1,13 @@
 # AmericanRecessionPredict
 Código em Python para prever uma recessão nos Estados Undos da América.
 
-Baseado em um [artigo](https://mises.org.br/Article.aspx?id=2971) do Instituto Mises, criei este código que serve para analisar as taxas de juros do tesouro americano (3 anos, 10 anos e 30 anos) e avisar se esta havendo uma [inversão da curva de juros](https://www.investopedia.com/terms/i/invertedyieldcurve.asp).
+Baseado em um [artigo](https://mises.org.br/Article.aspx?id=2971) do Instituto Mises, criei este código que serve para analisar as taxas de juros do tesouro americano (3 meses, 2 anos, 10 anos e 30 anos) e avisar se esta havendo uma [inversão da curva de juros](https://www.investopedia.com/terms/i/invertedyieldcurve.asp).
 
 ![Gráfico das Taxas de Juros e sua correlação com recessões](https://fred.stlouisfed.org/graph/fredgraph.png?g=morW)
 
 ## Requisitos
+Python 2.7
+
 
 fredapi - https://pypi.org/project/fredapi/
 ```
